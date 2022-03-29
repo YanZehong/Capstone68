@@ -35,6 +35,8 @@ ssh -L8888:localhost:8888 zehong@172.27.82.2
 
 ```
 wget --no-check-certificate "https://onedrive.live.com/download?cid=82847715CFF24FC2&resid=82847715CFF24FC2%21655&authkey=AJKEstD7ElbnHVU"
+
+wget --no-check-certificate "https://onedrive.live.com/download?cid=82847715CFF24FC2&resid=82847715CFF24FC2%21655&authkey=AJKEstD7ElbnHVU&download=1"
 ```
 
 ### Computing Devices
