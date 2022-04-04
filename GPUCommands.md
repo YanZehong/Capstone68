@@ -15,13 +15,13 @@ sudo apt install python3.8
 wget https://repo.anaconda.com/miniconda/Miniconda3-py38_4.11.0-Linux-x86_64.sh
 bash Miniconda3-py38_4.11.0-Linux-x86_64.sh
 bash
-pip install jupyter torch torchvision d2l zehong
+pip install jupyter torch torchvision d2l
 ```
 
 ### Map remote jupyter notebook to local
 ```
 jupyter notebook
-ssh -L8888:localhost:8888 zehong@172.27.82.2
+ssh -L8888:localhost:8888 ...@xxx.xx.xx
 ```
 
 ### Download file from cloud
@@ -35,16 +35,9 @@ ssh -L8888:localhost:8888 zehong@172.27.82.2
 
 ```
 wget --no-check-certificate "https://onedrive.live.com/download?cid=82847715CFF24FC2&resid=82847715CFF24FC2%21655&authkey=AJKEstD7ElbnHVU"
-
-wget --no-check-certificate "https://onedrive.live.com/download?cid=82847715CFF24FC2&resid=82847715CFF24FC2%21655&authkey=AJKEstD7ElbnHVU&download=1"
 ```
 
 ### Computing Devices
-
-Install the PyTorch version that supports CUDA 10.0 via:  
-```
-pip install torch-cu100.
-```
 
 In PyTorch, the CPU and GPU can be indicated by torch.device('cpu') and torch.device('cuda').  
 ```
