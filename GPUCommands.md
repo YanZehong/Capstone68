@@ -37,6 +37,12 @@ ssh -L8888:localhost:8888 ...@xxx.xx.xx
 wget --no-check-certificate "https://onedrive.live.com/download?cid=82847715CFF24FC2&resid=82847715CFF24FC2%21655&authkey=AJKEstD7ElbnHVU"
 ```
 
+### Download files from server
+```
+scp -r ...@xxx.xx.xx.x:/home/zehong/CSAE-code/src/outputs /Users/yanzehong/Workspace_capstone68/AE/src
+```
+
+
 ### Computing Devices
 
 In PyTorch, the CPU and GPU can be indicated by torch.device('cpu') and torch.device('cuda').  
